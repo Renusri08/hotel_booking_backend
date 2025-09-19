@@ -14,7 +14,6 @@ const app=express();
 
 connectDB();
 
-//middlewares
 app.use(express.json());
 app.use(cors({
     origin: [
